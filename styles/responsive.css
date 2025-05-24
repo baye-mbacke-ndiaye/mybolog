@@ -145,3 +145,451 @@
     height: 750px;
   }
 }
+
+
+
+
+/* respomsive */
+@media screen and (max-width: 900px) {
+
+  /* header */
+  .first-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    flex-direction: column;
+     width: 100%;
+
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+
+  }
+
+  .first-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  /* baniere */
+  .baniere p {
+    position: relative;
+    top: 40%;
+  }
+
+  .baniere h1 {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 40%;
+  }
+
+  /* footer */
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* article */
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+
+
+
+
+
+
+  }
+
+
+  article .image {
+    width: 100%;
+
+  }
+
+
+  article .paragraphe {
+    width: 100%;
+
+  }
+
+  /* section a propos */
+  .container-ap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .container-ap .image {
+    width: 100%;
+
+  }
+
+  .text-ap {
+
+    width: 100%;
+
+  }
+
+  .container-ap .image img {
+    width: 100%;
+    border-radius: 10px;
+    border: #212529 1px solid;
+  }
+
+  .paragraphe-apropos h2 {
+    text-align: center;
+    padding: 30px 20px 0;
+    color: #fc6915;
+    font-size: 20px;
+    text-decoration: underline #212529;
+  }
+
+  .content-equipe {
+    width: 100%;
+    color: #212529;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+
+  }
+
+
+  .container-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-left {
+    width: 100%;
+
+  }
+
+  .message {
+    width: 100%;
+
+  }
+
+  .contact {
+    height: 750px;
+  }
+}
+
+
+/* respomsive */
+@media screen and (max-width: 400px) {
+
+  /* header */
+  .first-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    flex-direction: column;
+     width: 100%;
+
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+
+  }
+
+  .first-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  /* baniere */
+  .baniere p {
+    position: relative;
+    top: 40%;
+  }
+
+  .baniere h1 {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 40%;
+  }
+
+  /* footer */
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* article */
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+
+
+
+
+
+
+  }
+
+
+  article .image {
+    width: 100%;
+
+  }
+
+
+  article .paragraphe {
+    width: 100%;
+
+  }
+
+  /* section a propos */
+  .container-ap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .container-ap .image {
+    width: 100%;
+
+  }
+
+  .text-ap {
+
+    width: 100%;
+
+  }
+
+  .container-ap .image img {
+    width: 100%;
+    border-radius: 10px;
+    border: #212529 1px solid;
+  }
+
+  .paragraphe-apropos h2 {
+    text-align: center;
+    padding: 30px 20px 0;
+    color: #fc6915;
+    font-size: 20px;
+    text-decoration: underline #212529;
+  }
+
+  .content-equipe {
+    width: 100%;
+    color: #212529;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+
+  }
+
+
+  .container-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-left {
+    width: 100%;
+
+  }
+
+  .message {
+    width: 100%;
+
+  }
+
+  .contact {
+    height: 750px;
+  }
+}
+
+/* respomsive */
+@media screen and (max-width: 200px) {
+
+  /* header */
+  .first-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    flex-direction: column;
+     width: 100%;
+
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+
+  }
+
+  .first-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  /* baniere */
+  .baniere p {
+    position: relative;
+    top: 40%;
+  }
+
+  .baniere h1 {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 40%;
+  }
+
+  /* footer */
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* article */
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+
+
+
+
+
+
+  }
+
+
+  article .image {
+    width: 100%;
+
+  }
+
+
+  article .paragraphe {
+    width: 100%;
+
+  }
+
+  /* section a propos */
+  .container-ap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .container-ap .image {
+    width: 100%;
+
+  }
+
+  .text-ap {
+
+    width: 100%;
+
+  }
+
+  .container-ap .image img {
+    width: 100%;
+    border-radius: 10px;
+    border: #212529 1px solid;
+  }
+
+  .paragraphe-apropos h2 {
+    text-align: center;
+    padding: 30px 20px 0;
+    color: #fc6915;
+    font-size: 20px;
+    text-decoration: underline #212529;
+  }
+
+  .content-equipe {
+    width: 100%;
+    color: #212529;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+
+  }
+
+
+  .container-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-left {
+    width: 100%;
+
+  }
+
+  .message {
+    width: 100%;
+
+  }
+
+  .contact {
+    height: 750px;
+  }
+}
