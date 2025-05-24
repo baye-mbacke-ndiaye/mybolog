@@ -447,7 +447,7 @@
 }
 
 /* respomsive */
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 250px) {
 
   /* header */
   .first-menu ul {
@@ -470,7 +470,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* flex-direction: column; */
+    flex-direction: column;
     gap: 10px;
   }
 
