@@ -6,7 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10px;
+    font-size: 15px;
+    flex-direction: column;
      width: 100%;
 
   }
@@ -19,9 +20,9 @@
 
   .first-menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 10px;
   }
 
