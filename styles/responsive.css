@@ -447,7 +447,7 @@
 }
 
 /* respomsive */
-@media screen and (max-width: 250px) {
+@media (max-width:600px) {
 
   /* header */
   .first-menu ul {
