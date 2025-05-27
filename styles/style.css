@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
-  /* outline: 1px solid green; */
+  /* outline: 1px solid rgb(240, 6, 45); */
 }
 
 body {
@@ -283,7 +283,8 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 450px;
+  /* height: 450px; */
+  padding-bottom: 60px;
 
 }
 
