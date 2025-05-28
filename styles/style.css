@@ -321,3 +321,312 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
+
+
+/* ================== RESPONSIVE MOBILE ================== */
+@media screen and (max-width: 768px) {
+
+  .first-menu,
+  .first-menu ul,
+  footer,
+  .container-ap,
+  .content-equipe,
+  .container-contact,
+  article {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+
+  .first-menu {
+    padding: 10px 0;
+    margin-left: 0;
+  }
+
+  .first-menu ul {
+    gap: 10px;
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 38px;
+    height: 38px
+  }
+
+  .baniere {
+    height: 280px;
+  }
+
+  .baniere h1 {
+    font-size: 26px;
+    top: 35%;
+    text-align: center;
+  }
+
+  .baniere p {
+    font-size: 14px;
+    top: 35%;
+  }
+
+  article {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  article .image,
+  article .paragraphe {
+    width: 100%;
+  }
+
+  .container-ap {
+    width: 90%;
+  }
+
+  .paragraphe-apropos h2 {
+    padding: 0;
+  }
+
+  .content-equipe .div1,
+  .div2,
+  .div3,
+  .div4 {
+
+    margin: 0px;
+  }
+
+  .container-equipe {
+    width: 100%;
+  }
+
+  .img_profil {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .img_profil img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-ap .image,
+  .text-ap,
+  .contact-left,
+  .message {
+    width: 100%;
+    padding: 0;
+
+  }
+
+  .container-ap .image img {
+    border-radius: 8px;
+  }
+
+  .text-ap {
+    font-size: 14px;
+    /* padding: 10px; */
+    border-left: none;
+    margin-left: 0;
+  }
+
+  .paragraphe-apropos h2 {
+    font-size: 21px;
+    padding: 18px 0 10px 0;
+  }
+
+  .container-equipe {
+    padding: 0;
+  }
+
+  .content-equipe {
+    width: 80%;
+    margin: auto;
+  }
+
+  .content-equipe .div1,
+  .content-equipe .div2,
+  .content-equipe .div3,
+  .content-equipe .div4 {
+    margin: 12px 0;
+  }
+
+  .contact-left {
+    padding: 12px;
+  }
+
+  .message {
+    margin-bottom: 20px;
+
+
+  }
+
+  .message textarea {
+    padding: 50px;
+
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 10px 4px;
+    justify-content: center !important;
+  }
+}
+
+
+/* ================== RESPONSIVE TABLETE ================== */
+@media screen and (max-width: 900px) {
+
+  .first-menu,
+  .first-menu ul,
+  footer,
+  .container-ap,
+  .content-equipe,
+  .container-contact,
+  article {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+
+  .first-menu {
+    padding: 10px 0;
+    margin-left: 0;
+  }
+
+  .first-menu ul {
+    gap: 10px;
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 38px;
+    height: 38px
+  }
+
+  .baniere {
+    height: 280px;
+  }
+
+  .baniere h1 {
+    font-size: 26px;
+    top: 35%;
+    text-align: center;
+  }
+
+  .baniere p {
+    font-size: 14px;
+    top: 35%;
+  }
+
+  article {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  article .image,
+  article .paragraphe {
+    width: 100%;
+  }
+
+  .container-ap {
+    width: 90%;
+  }
+
+  .paragraphe-apropos h2 {
+    padding: 0;
+  }
+
+  .content-equipe .div1,
+  .div2,
+  .div3,
+  .div4 {
+
+    margin: 0px;
+  }
+
+  .container-equipe {
+    width: 100%;
+  }
+
+  .img_profil {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .img_profil img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-ap .image,
+  .text-ap,
+  .contact-left,
+  .message {
+    width: 100%;
+    padding: 0;
+
+  }
+
+  .container-ap .image img {
+    border-radius: 8px;
+  }
+
+  .text-ap {
+    font-size: 14px;
+    /* padding: 10px; */
+    border-left: none;
+    margin-left: 0;
+  }
+
+  .paragraphe-apropos h2 {
+    font-size: 21px;
+    padding: 18px 0 10px 0;
+  }
+
+  .container-equipe {
+    padding: 0;
+  }
+
+  .content-equipe {
+    width: 80%;
+    margin: auto;
+  }
+
+  .content-equipe .div1,
+  .content-equipe .div2,
+  .content-equipe .div3,
+  .content-equipe .div4 {
+    margin: 12px 0;
+  }
+
+  .contact-left {
+    padding: 12px;
+  }
+
+  .message {
+    margin-bottom: 20px;
+
+
+  }
+
+  .message textarea {
+    padding: 50px;
+
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 10px 4px;
+    justify-content: center !important;
+  }
+}
